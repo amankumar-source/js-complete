@@ -1,0 +1,30 @@
+🔄 Flow Summary:
+
+
+Code is parsed and compiled
+
+Memory is allocated
+
+Execution context is created
+
+Code runs using the call stack
+
+Async tasks are handled by the event loop
+
+
+
+this code run in browser source   ===>
+
+
+function one(){
+console.log("one")
+}
+function two(){
+    console.log("two")
+}
+function three(){
+    console.log("three")
+}
+one()
+two()
+three()
